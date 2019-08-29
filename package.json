@@ -1,0 +1,17 @@
+{
+  "name": "botforwhatsapp",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^6.0.0",
+    "prebuild-install": "^5.3.0",
+    "robotjs": "git+https://git@github.com/octalmage/robotjs.git"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.8.5"
+  }
+}
